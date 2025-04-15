@@ -1,0 +1,16 @@
+email template for brevo
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stay Connected</title>
+</head>
+<body>
+    <p>Hello {{ contact.FIRSTNAME }},</p>
+    <p>We’re excited to have you onboard. Stay updated with our latest news, events, and special offers by keeping an eye on your inbox!</p>
+    <p>If you have any questions or need support, feel free to reach out to us.</p>
+    <!-- Tracking Pixel -->
+    <img src="{{ contact.TRACKING_PIXEL }}" width="1" height="1" style="display: none;">
+    <p>Best regards,<br>Your Company Team</p>
+</body>
+</html>
